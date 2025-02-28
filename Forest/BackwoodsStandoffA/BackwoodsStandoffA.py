@@ -3,4 +3,4 @@ while True:
     if (enemy and hero.isReady('cleave')):
         hero.cleave(enemy)
     else:
-        hero.say('DGIGURDA')
+       hero.attack(enemy)
